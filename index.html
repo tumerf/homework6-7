@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA - Günün Uzay Fotoğrafı</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌌 NASA Günün Fotoğrafı</h1>
+            <p>Evrenin derinliklerinden günlük bir kare</p>
+        </header>
+
+        <main id="content">
+            <div id="loading" class="loading">Uzaydan veri indiriliyor... 🚀</div>
+            
+            <div id="result" class="hidden">
+                <h2 id="apod-title"></h2>
+                <div class="media-container">
+                    <img id="apod-image" src="" alt="Space Image">
+                    <iframe id="apod-video" src="" frameborder="0" class="hidden"></iframe>
+                </div>
+                <div class="info-box">
+                    <p id="apod-date"></p>
+                    <p id="apod-explanation"></p>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
