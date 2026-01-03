@@ -10,7 +10,7 @@ This project is a modern web application that fetches and displays NASA's "Astro
 
 ## 🛠️ Technologies
 - HTML5, CSS3, JavaScript
-- NASA Open API
+- NASA Open API 
 - Built with AI-Assisted Vibe Coding
 
 ## 🚀 How to Run
@@ -21,3 +21,11 @@ This project is a modern web application that fetches and displays NASA's "Astro
 ## 📂 Documentation
 - [Research & Analysis](./ANALYSIS.md)
 - [My Experience](./EXPERIENCE.md)
+
+## 🐳 Docker ile Çalıştırma
+
+Bu projeyi Docker container'ı içerisinde çalıştırmak için:
+
+1. **Docker İmajını Oluşturun:**
+   ```bash
+   docker build -t static-web-app .
